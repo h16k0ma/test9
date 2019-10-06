@@ -62,19 +62,27 @@ main{
   margin: 15px 0 5px;
 }
 @media screen and (max-width:768px){
-  main{
-    width: 90%
-  }
   .step-box {
     float: none;
     margin-top: 20px;
+    width: 100%;
   }
   .step-img1 {
     height: 110px;
+    width: 100%;
+    
   }
   .step-img2 {
     height: 110px;
+    width: 100%;
   }
   .step-img3 {
     height: 110px;
+    width: 100%;
   }
+  main{
+    width: 90%;
+    margin: 50px auto;
+  }
+}
+
